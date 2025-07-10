@@ -1,6 +1,7 @@
-# Corporate DevSecOps Pipeline
+# Corporate DevSecOps Pipeline [BoardGane Project]
 
 This repository defines a modular corporate pipeline for secure, containerized CI/CD and observability across distributed virtual infrastructure.
+<img width="906" height="578" alt="image" src="https://github.com/user-attachments/assets/070fe0f4-0ee7-4af8-90a0-12ac56ada1e9" />
 
 ---
 
@@ -24,6 +25,7 @@ This repository defines a modular corporate pipeline for secure, containerized C
 ---
 
 ## Phase 1: Virtual Machine Setup
+Refer: https://medium.com/@dev.gyinae/building-a-home-lab-with-virtualbox-setting-up-vms-and-configuring-bridged-networking-for-remote-0e80446254e0
 
 - Provision a virtual machine using Oracle VirtualBox
 - Install Ubuntu Jammy (22.04 LTS)
@@ -39,7 +41,7 @@ This repository defines a modular corporate pipeline for secure, containerized C
 - Deploy a local Kubernetes cluster using k3s
 - Install Trivy for container vulnerability scanning
 - Set up SonarQube for code quality analysis
-- Install and configure Nexus as an internal artifact repository
+- Install and configure Nexus as an internal artifact repository (https://medium.com/@dev.gyinae/how-to-install-nexus-repository-manager-on-linux-44c38a827502)
 - Install Helm for managing Kubernetes resource templates
 
 ---
