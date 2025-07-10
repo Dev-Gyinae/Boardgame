@@ -1,4 +1,4 @@
-# Corporate DevSecOps Pipeline [BoardGane Project]
+# Corporate DevSecOps Pipeline [BoardGame Project]
 
 This repository defines a modular corporate pipeline for secure, containerized CI/CD and observability across distributed virtual infrastructure.
 <img width="906" height="578" alt="image" src="https://github.com/user-attachments/assets/070fe0f4-0ee7-4af8-90a0-12ac56ada1e9" />
@@ -35,14 +35,14 @@ Refer: https://medium.com/@dev.gyinae/building-a-home-lab-with-virtualbox-settin
 
 ## Phase 2: Service Installation & Dependency Setup
 
-- Install Git
-- Install Docker and mount the Docker socket (`/var/run/docker.sock`) for Jenkins
-- Install Jenkins with permissions to execute Docker and Kubernetes commands
-- Deploy a local Kubernetes cluster using k3s
-- Install Trivy for container vulnerability scanning
-- Set up SonarQube for code quality analysis
+- Install Git (https://medium.com/@dev.gyinae/devops-bootcamp-version-control-with-git-d56235bd51db)
+- Install Docker (https://medium.com/@dev.gyinae/devops-bootcamp-containers-with-docker-9f54469d236f) and mount the Docker socket (`/var/run/docker.sock`) for Jenkins 
+- Install Jenkins with permissions to execute Docker and Kubernetes commands (https://github.com/Dev-Gyinae/boardgame_pipeline/blob/main/Jenkins.md)
+- Deploy a local Kubernetes cluster using k3s (https://github.com/Dev-Gyinae/boardgame_pipeline/blob/main/kubernetes.md)
+- Install Trivy for container vulnerability scanning  (https://github.com/Dev-Gyinae/boardgame_pipeline/blob/main/trivy.md)
+- Set up SonarQube for code quality analysis (https://github.com/Dev-Gyinae/boardgame_pipeline/blob/main/Sonarqube.md)
 - Install and configure Nexus as an internal artifact repository (https://medium.com/@dev.gyinae/how-to-install-nexus-repository-manager-on-linux-44c38a827502)
-- Install Helm for managing Kubernetes resource templates
+- Install Helm for managing Kubernetes resource templates (https://github.com/Dev-Gyinae/boardgame_pipeline/blob/main/helm.md)
 
 ---
 
