@@ -99,6 +99,7 @@ Install the following plugins via Jenkins Plugin Manager:
 ---
 
 ## Phase 5: Monitoring
+Refer:  https://github.com/Dev-Gyinae/monitoring_stack
 
 - Prometheus scrapes metrics from Kubernetes workloads and services
 - Grafana visualizes collected data through dashboards
