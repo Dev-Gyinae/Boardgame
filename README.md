@@ -129,20 +129,53 @@ Install the following plugins via Jenkins Plugin Manager:
 
 ### Pipeline Stages (Jenkinsfile)
 
-- Git Checkout  
-- Maven Compile  
-- Maven Test  
-- Trivy File System Scan  
-- SonarQube Analysis  
-- Quality Gate Verification  
-- Maven Package  
-- Publish to Nexus  
+- Git Checkout
+  <img width="978" height="331" alt="Screenshot 2025-07-10 140932" src="https://github.com/user-attachments/assets/1beff7a7-a672-443f-8659-3aed38d8f700" />
+  <img width="989" height="590" alt="Screenshot 2025-07-10 140921" src="https://github.com/user-attachments/assets/ac71e174-2bfd-4378-bd52-340e9e70c34d" />
+
+
+- Maven Compile
+<img width="977" height="316" alt="Screenshot 2025-07-10 140857" src="https://github.com/user-attachments/assets/08d094e0-cc32-4a43-a643-dbdaecf363a0" />
+
+- Maven Test
+<img width="985" height="311" alt="Screenshot 2025-07-10 140838" src="https://github.com/user-attachments/assets/d305eebf-e087-4579-9844-085a4705bd85" />
+
+
+- Trivy File System Scan
+<img width="972" height="320" alt="Screenshot 2025-07-10 140820" src="https://github.com/user-attachments/assets/51fda2ad-2dfd-44f4-81af-c7dc87cb13fd" />
+ 
+- SonarQube Analysis
+  <img width="983" height="323" alt="Screenshot 2025-07-10 140449" src="https://github.com/user-attachments/assets/42545da2-2f45-44b3-87b5-82f9952ce4d4" />
+  
+- Quality Gate Verification
+- <img width="976" height="436" alt="Screenshot 2025-07-10 140510" src="https://github.com/user-attachments/assets/ddffdf7a-2958-47db-afd0-f43fa69bf366" />
+
+- Maven Package
+  <img width="975" height="330" alt="Screenshot 2025-07-10 140541" src="https://github.com/user-attachments/assets/14939896-1975-470a-809a-be52158534a8" />
+  <img width="974" height="508" alt="Screenshot 2025-07-10 140706" src="https://github.com/user-attachments/assets/6d9fb262-3efb-4453-b094-06fd58ebb254" />
+  
+
+
+- Publish to Nexus
+  <img width="985" height="584" alt="Screenshot 2025-07-10 141306" src="https://github.com/user-attachments/assets/9eaa348f-66b8-46d2-98ca-36d97badac0f" />
+  
+
 - Docker Image Build & Tag  
-- Trivy Image Scan  
-- Docker Image Push  
+- Trivy Image Scan
+  <img width="981" height="326" alt="Screenshot 2025-07-10 141430" src="https://github.com/user-attachments/assets/ffbfb7ac-e558-46c3-b0f2-39bfb88473f4" />
+
+- Docker Image Push
+  <img width="992" height="593" alt="Screenshot 2025-07-10 141451" src="https://github.com/user-attachments/assets/36a3e1cd-1a52-4934-bc50-5db7e3642fb1" />
+
 - Kubernetes Deployment  
 - Deployment Verification  
 - Email Notification (Post Stage)
+- <img width="991" height="186" alt="Screenshot 2025-07-10 141510" src="https://github.com/user-attachments/assets/46530abe-838d-46b0-8c19-c3b4ba2259dd" />
+<img width="1339" height="639" alt="Screenshot 2025-07-10 141926" src="https://github.com/user-attachments/assets/4e17f3f5-e350-47ef-ad5d-ef7d077a84b8" />
+<img width="1004" height="435" alt="Screenshot 2025-07-10 142010" src="https://github.com/user-attachments/assets/b545f419-6561-48fd-8bd0-89b875c5a3a3" />
+
+
+
 
 ---
 
