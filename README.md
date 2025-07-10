@@ -185,3 +185,6 @@ Refer:  https://github.com/Dev-Gyinae/monitoring_stack
 - Prometheus scrapes metrics from Kubernetes workloads and services
 - Grafana visualizes collected data through dashboards
 - Alerts can be configured for performance thresholds and failures
+
+
+## Refer to this repo for executed commands: https://github.com/Dev-Gyinae/boardgame_pipeline/tree/main 
