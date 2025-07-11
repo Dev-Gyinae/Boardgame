@@ -1,7 +1,8 @@
 # Corporate DevSecOps Pipeline [BoardGame Project]
 
 This repository defines a modular corporate pipeline for secure, containerized CI/CD and observability across distributed virtual infrastructure.
-<img width="906" height="578" alt="image" src="https://github.com/user-attachments/assets/070fe0f4-0ee7-4af8-90a0-12ac56ada1e9" />
+<img width="790" height="482" alt="image" src="https://github.com/user-attachments/assets/818ed026-7502-4a6a-bbae-79dbe8c90a84" />
+
 
 Summary:
 https://github.com/Dev-Gyinae/Boardgame/blob/main/Project.md
