@@ -3,8 +3,7 @@
 This repository defines a modular corporate pipeline for secure, containerized CI/CD and observability across distributed virtual infrastructure.
 <img width="906" height="578" alt="image" src="https://github.com/user-attachments/assets/070fe0f4-0ee7-4af8-90a0-12ac56ada1e9" />
 
-#Summary:
-
+Summary:
 https://github.com/Dev-Gyinae/Boardgame/blob/main/Project.md
 ---
 
