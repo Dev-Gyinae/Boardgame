@@ -32,11 +32,11 @@ Objective: Set up the CI/CD tooling stack.
 * Install Git, Docker, and Jenkins with required permissions
 * Install and configure:
 
-  * Kubernetes (k3s) – kubernetes.md
-  * Trivy – trivy.md
-  * SonarQube – Sonarqube.md
+  * Kubernetes (k3s) – https://github.com/Dev-Gyinae/boardgame_pipeline/blob/main/kubernetes.md
+  * Trivy – https://github.com/Dev-Gyinae/boardgame_pipeline/blob/main/trivy.md
+  * SonarQube – https://github.com/Dev-Gyinae/boardgame_pipeline/blob/main/Sonarqube.md
   * Nexus Repository – [https://medium.com/@dev.gyinae/how-to-install-nexus-repository-manager-on-linux-44c38a827502](https://medium.com/@dev.gyinae/how-to-install-nexus-repository-manager-on-linux-44c38a827502)
-  * Helm – helm.md
+  * Helm – https://github.com/Dev-Gyinae/boardgame_pipeline/blob/main/helm.md
 
 ## Phase 3: Jenkins Plugin Configuration
 
@@ -98,11 +98,3 @@ Monitoring Setup Repo: [https://github.com/Dev-Gyinae/monitoring\_stack](https:/
 
 * Full Pipeline Source & Scripts: [https://github.com/Dev-Gyinae/boardgame\_pipeline/tree/main](https://github.com/Dev-Gyinae/boardgame_pipeline/tree/main)
 * Executed Commands: [https://github.com/Dev-Gyinae/boardgame\_pipeline/tree/main/scripts](https://github.com/Dev-Gyinae/boardgame_pipeline/tree/main/scripts)
-
-## Suggestions Going Forward
-
-* Add a summary diagram with numbered stages
-* Create an architecture.md or pipeline.md breakdown
-* Include a requirements.txt or setup.sh for quick install
-* Add badges for build and code coverage
-* Modularize Jenkins stages using shared libraries
