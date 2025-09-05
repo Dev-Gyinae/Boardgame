@@ -190,5 +190,7 @@ Refer:  https://github.com/Dev-Gyinae/monitoring_stack
 - Alerts can be configured for performance thresholds and failures
 
 
+*** Feel free to contact me for clarification 
+
 
 ## Refer to this repo for executed commands: https://github.com/Dev-Gyinae/boardgame_pipeline/tree/main 
